@@ -47,6 +47,8 @@ class Comp extends React.Component {
               <p>
                 <img src={item.image_url} width="90" height="220" />
               </p>
+              <p> {item.description} </p>
+              <br />
             </li>
           ))}
         </div>
